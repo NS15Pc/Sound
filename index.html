@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="logo">NS</div>
+            <div id="setting">⚙</div>
+        </div>
+
+        <div id="box">
+            <textarea id="textarea" placeholder="Enter your text here..."></textarea>
+            <button id="sound">🔊</button>
+        </div>
+
+        <div id="settingbox">
+            <div id="close">✖</div>
+            <h2>Settings</h2>
+            <label>Frequency:</label>
+            <input type="range" min="1" max="10" value="5" class="slider" id="frequency">
+            <label>Speed:</label>
+            <input type="range" min="1" max="10" value="5" class="slider" id="speed">
+            <label>Volume:</label>
+            <input type="range" min="1" max="10" value="5" class="slider" id="volume">
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
